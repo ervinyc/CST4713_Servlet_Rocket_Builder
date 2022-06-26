@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Rocket Builder</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Space Rocket Construction Form</h1>
+        <form action="SpaceRocketConstructor" method="get">
+            <h2>Specify Rocket Model</h2>
+            <p>Rocket Model: <input type="text" name="rModel"></p><br>
+            
+            <h2>Specify Capsule</h2>
+            <p>Capsule Model: <input type="text" name="cModel"></p>
+            <p>Capsule Weight: <input type="text" name="cWeight"></p><br>
+            
+            <h2>Specify Boosters</h2>
+            <p>
+                Port Booster Weight: <input type="text" name="pbWeight">
+                Center Booster Weight: <input type="text" name="cbWeight">
+                Starboard Booster Weight: <input type="text" name="sbWeight">
+            </p><br>
+            
+            <h2>Specify Engines</h2>
+            <p>
+                Booster Engine Weight: <input type="text" name="beWeight">
+                Main Engine Weight: <input type="text" name="meWeight">
+            </p><br>
+            
+            
+            <input type="submit" value="Build Space Rocket">
+        </form>
+    </body>
+</html>
